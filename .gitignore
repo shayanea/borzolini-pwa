@@ -120,3 +120,5 @@ build/
 # PWA specific
 sw.js
 workbox-*.js
+
+.early.coverage

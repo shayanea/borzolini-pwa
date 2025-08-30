@@ -16,23 +16,26 @@ A Progressive Web Application for managing pet clinic appointments and health tr
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - pnpm (recommended) or npm
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/shayanea/borzolini-pwa.git
 cd borzolini-pwa
 ```
 
 2. Install dependencies:
+
 ```bash
 pnpm install
 ```
 
 3. Start the development server:
+
 ```bash
 pnpm dev
 ```
@@ -93,6 +96,7 @@ src/
 - `pnpm preview` - Preview production build
 - `pnpm lint` - Run ESLint
 - `pnpm type-check` - Run TypeScript type checking
+- `pnpm csp-test` - Test Content Security Policy configuration
 
 ### Code Style
 
